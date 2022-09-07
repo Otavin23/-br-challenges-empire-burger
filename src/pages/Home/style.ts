@@ -70,10 +70,132 @@ export const backgroundSobre = styled.section`
 
 export const containerSobre = styled.div`
   max-width: 1400px;
-  width: 75%;
-  height: 100%;
+  width: 65%;
+  height: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 10px #dcdcdc;
+`;
+
+export const backgroundOffer = styled.section`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+`;
+
+export const containeroOffer = styled.div`
+  height: 90%;
+  max-width: 1400px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h2 {
+    font-family: var(--font-segundary);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--color-dark-brown);
+    font-size: 1.8rem;
+  }
+  p {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    color: var(--color-brown--ligth);
+    font-family: var(--font-primary);
+  }
+`;
+
+export const imagesOffer = styled.picture`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  #primaryImage {
+    margin-right: 2rem;
+    max-width: 60%;
+  }
+`;
+
+export const imageRight = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  img {
+    max-width: 90%;
+    height: 45%;
+  }
+`;
+
+export const OfferHours = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+`;
+
+export const Offeroperation = styled.div`
+  background: var(--color--red);
+  height: 100%;
+  width: 45%;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+`;
+
+export const containerOfferOperation = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 90%;
+`;
+
+export const pictureOfferOperation = styled.picture`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 15%;
+  height: 65%;
+  border-radius: 50%;
+  img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+`;
+
+export const informationOfferOperation = styled.div`
+  width: 80%;
+  height: 80%;
+  h3 {
+    color: rgba(29, 6, 5, 0.69);
+    font-family: var(--font-segundary);
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  p {
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    opacity: 0.8;
+  }
+`;
+export const OfferEmpireBurguer = styled.div`
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  span {
+    font-family: var(--font-primary);
+    color: var(--color-brown--ligth);
+  }
+  h3 {
+    color: var(--color--red);
+    text-transform: uppercase;
+    font-family: var(--font-segundary);
+    font-weight: 400;
+  }
 `;
