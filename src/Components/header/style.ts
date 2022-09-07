@@ -6,11 +6,13 @@ export const backgroundHeader = styled.header`
   height: 3.5rem;
   display: flex;
   justify-content: center;
+  position: fixed;
+  z-index: 1;
 `;
 
 export const containerHeader = styled.div`
   max-width: 1400px;
-  width: 70%;
+  width: 75%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -21,7 +23,7 @@ export const navLink = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 65%;
+  width: 70%;
   height: 100%;
 `;
 
@@ -44,7 +46,7 @@ export const ulLink = styled.ul`
     font-size: 18px;
     text-transform: capitalize;
     a {
-      color: #635352;
+      color: var(--color-brown--ligth);
       text-decoration: none;
     }
     margin-right: 1rem;
@@ -57,6 +59,7 @@ export const contact = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 100%;
+
   button {
     border: none;
     background: var(--color-orange);
@@ -76,4 +79,10 @@ export const contact = styled.div`
   }
 `;
 
-export const contatosGroup = styled.picture``;
+export const contatosGroup = styled.picture`
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;

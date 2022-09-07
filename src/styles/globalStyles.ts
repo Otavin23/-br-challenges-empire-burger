@@ -16,5 +16,6 @@ export const CreateGlobalStyles = createGlobalStyle`
         --color-brown: #3B200B;
         --color-orange: #F59A1B;
         --color-brown--h: #34201f;
+        --color-brown--ligth: #635352;
     }
 `;

@@ -1,5 +1,5 @@
 import { CreateGlobalStyles } from "./styles/globalStyles";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
