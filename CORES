@@ -1,0 +1,8 @@
+#3B200B COR MARROM 
+#F59A1B COR AMARELA 
+#1D0605 COR MARROM ESCURO
+COLOR marrom opaco color: rgba(29, 6, 5, 0.69);
+color yellow #F59A1B 
+color red #F43127;
+color white; #FFFFFF
+background-header: rgba(59, 32, 11, 0.05);
