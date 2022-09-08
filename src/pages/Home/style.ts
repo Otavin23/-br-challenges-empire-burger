@@ -182,6 +182,7 @@ export const informationOfferOperation = styled.div`
     opacity: 0.8;
   }
 `;
+
 export const OfferEmpireBurguer = styled.div`
   width: 50%;
   height: 100%;
@@ -198,4 +199,95 @@ export const OfferEmpireBurguer = styled.div`
     font-family: var(--font-segundary);
     font-weight: 400;
   }
+`;
+
+export const backgroundWhereitIs = styled.section`
+  width: 100%;
+  padding-top: 5rem;
+
+  height: 100%;
+
+  iframe {
+    padding-top: 2rem;
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+`;
+
+export const informationWhereitIs = styled.div`
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 25%;
+  h2 {
+    font-family: var(--font-segundary);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--color-dark-brown);
+    font-size: 2rem;
+  }
+  p {
+    color: var(--color-brown--ligth);
+    font-family: var(--font-primary);
+  }
+`;
+
+export const backgroundFooter = styled.footer`
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+`;
+
+export const containerFooter = styled.div`
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const navLinksFooter = styled.nav`
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const linksFooter = styled.ul`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+
+  #footer__home {
+    font-family: var(--font-primary);
+    a {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      color: var(--color-brown--h);
+    }
+  }
+  li {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    a {
+      color: var(--color-brown--ligth);
+      text-decoration: none;
+    }
+    margin-right: 1rem;
+  }
+`;
+
+export const imagesLink = styled.picture`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
 `;

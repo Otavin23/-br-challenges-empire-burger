@@ -6,7 +6,7 @@ export const backgroundHeader = styled.header`
   height: 3.5rem;
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   z-index: 1;
 `;
 
