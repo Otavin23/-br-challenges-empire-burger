@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
 import * as S from "./style";
-
+import { useState } from "react";
 import Header from "../../Components/header";
 import ButtonComponent from "../../Components/ButtonComponent";
 import CardS from "../../Components/CardS";
@@ -12,13 +11,16 @@ import batata from "../../assets/ofertas/oferta-2.webp";
 import sorvete from "../../assets/ofertas/oferta-03.webp";
 import timer from "../../assets/icons/timer.webp";
 import logoFooter from "../../assets/logo2.webp";
+import imageHero from "../../assets/banner-hero.webp";
+import mobileHero from "../../assets/banner_mobile.webp";
 
 const Hero = () => {
   return (
     <>
       <Header />
 
-      <S.backgroundHero>
+      <S.backgroundHero
+      >
         <S.container>
           <S.heroInformation>
             <span id="experience">Uma nova experiência!</span>

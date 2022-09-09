@@ -9,10 +9,10 @@ export const backgroundHero = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/src/assets/banner-hero.webp");
+  background-image: url("https://live.staticflickr.com/65535/52346615650_bf0acc8c0a_k.jpg");
 
   @media (max-width: 425px) {
-    background-image: url("./src/assets/banner_mobile.webp");
+    background-image: url("https://live.staticflickr.com/65535/52346191376_8a5b507cce_c.jpg");
     background-size: auto;
     height: 115vh;
   }
