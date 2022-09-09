@@ -18,19 +18,22 @@ export const containerCard = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 912px) {
+    padding: 1rem 0 1rem 0;
+  }
 `;
 
-export const imageCard = styled.picture`
+export const imageCard = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20%;
-  height: 60%;
+  background: red;
   background: #fae2cb;
   border-radius: 50%;
+  width: 45px;
+  height: 45px;
   img {
-    width: 50%;
-    height: 50%;
+    max-width: 30px;
   }
 `;
 

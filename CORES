@@ -6,3 +6,12 @@ color yellow #F59A1B
 color red #F43127;
 color white; #FFFFFF
 background-header: rgba(59, 32, 11, 0.05);
+
+
+background-hamburguer: background: rgba(29, 6, 5, 0.15);; 
+width and height do menu hambuguer: 30px, 30px; 
+img, 16px, 16px, 
+
+logo: 264, 35,19px 
+
+

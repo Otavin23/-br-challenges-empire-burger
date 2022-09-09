@@ -1,16 +1,15 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import * as S from "./style";
 
 import Header from "../../Components/header";
 import ButtonComponent from "../../Components/ButtonComponent";
-import backgroundHero from "../../assets/banner-hero.webp";
 import CardS from "../../Components/CardS";
 import burguer from "../../assets/icons/burger.webp";
 import headset from "../../assets/icons/headset.webp";
 import delivery from "../../assets/icons/delivery.webp";
-import imageBatata from "../../assets/ofertas/oferta-1.webp";
+import imageBatata from "../../assets/ofertas/oferta-01.webp";
 import batata from "../../assets/ofertas/oferta-2.webp";
-import sorvete from "../../assets/ofertas/oferta-3.webp";
+import sorvete from "../../assets/ofertas/oferta-03.webp";
 import timer from "../../assets/icons/timer.webp";
 import logoFooter from "../../assets/logo2.webp";
 
@@ -19,11 +18,7 @@ const Hero = () => {
     <>
       <Header />
 
-      <S.backgroundHero
-        style={{
-          backgroundImage: `url(${backgroundHero})`,
-        }}
-      >
+      <S.backgroundHero>
         <S.container>
           <S.heroInformation>
             <span id="experience">Uma nova experiência!</span>

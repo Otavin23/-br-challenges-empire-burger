@@ -1,12 +1,18 @@
 import React from "react";
 import * as S from "./style";
+
 import logo from "../../assets/logo.webp";
+import menu from "../../assets/menu.webp";
 
 const Header = () => {
   return (
     <S.backgroundHeader>
       <S.containerHeader>
         <img src={logo} alt="" />
+
+        <S.menuHamburguer>
+          <img src={menu} alt="" />
+        </S.menuHamburguer>
 
         <S.navLink>
           <S.ulLink>
