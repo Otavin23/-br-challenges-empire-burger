@@ -5,19 +5,9 @@ export const backgroundCard = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 1px solid rgba(73, 46, 21, 0.15);
-`;
-
-export const containerCard = styled.div`
-  max-width: 1440px;
-  max-height: 70%;
-  height: 70%;
-  width: 90%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
+  border-right: 1px solid rgba(73, 46, 21, 0.15);
   @media (max-width: 912px) {
     padding: 1rem 0 1rem 0;
   }
@@ -32,6 +22,7 @@ export const imageCard = styled.div`
   border-radius: 50%;
   width: 45px;
   height: 45px;
+  margin-left: 1rem;
   img {
     max-width: 30px;
   }
@@ -39,7 +30,7 @@ export const imageCard = styled.div`
 
 export const cardInformation = styled.div`
   width: 70%;
-  h3 {
+  span {
     font-family: var(--font-segundary);
     text-transform: uppercase;
     color: var(--color-dark-brown);

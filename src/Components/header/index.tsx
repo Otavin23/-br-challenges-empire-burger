@@ -1,4 +1,3 @@
-import React from "react";
 import * as S from "./style";
 
 import logo from "../../assets/logo.webp";
@@ -8,10 +7,14 @@ const Header = () => {
   return (
     <S.backgroundHeader>
       <S.containerHeader>
-        <img src={logo} alt="" />
+        <img
+          src={logo}
+          alt="logo skrevet empire burger
+"
+        />
 
         <S.menuHamburguer>
-          <img src={menu} alt="" />
+          <img src={menu} alt="menykobling" />
         </S.menuHamburguer>
 
         <S.navLink>
@@ -32,12 +35,11 @@ const Header = () => {
               <a href="#">contato</a>
             </li>
           </S.ulLink>
+
           <S.contact>
             <S.contatosGroup>
               <svg
-                width="28"
-                height="15"
-                viewBox="0 0 28 15"
+                viewBox="0 0 50 15"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -63,9 +65,7 @@ const Header = () => {
                 </defs>
               </svg>
               <svg
-                width="19"
-                height="19"
-                viewBox="0 0 19 19"
+                viewBox="0 0 50 20"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >

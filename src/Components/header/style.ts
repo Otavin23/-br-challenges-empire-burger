@@ -8,6 +8,7 @@ export const backgroundHeader = styled.header`
   justify-content: center;
   position: absolute;
   z-index: 1;
+  backdrop-filter: blur(4px);
 `;
 
 export const containerHeader = styled.div`
@@ -82,7 +83,7 @@ export const ulLink = styled.ul`
 `;
 
 export const contact = styled.div`
-  width: 100%;
+  width: 35%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +95,7 @@ export const contact = styled.div`
   button {
     border: none;
     background: var(--color-orange);
-    width: 70%;
+    width: 150px;
     border-radius: 0.2rem;
     display: flex;
     align-items: center;
@@ -116,6 +117,7 @@ export const contatosGroup = styled.picture`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   @media (max-width: 912px) {
     display: none;
   }

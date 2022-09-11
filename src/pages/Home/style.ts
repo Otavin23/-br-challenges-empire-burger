@@ -4,11 +4,13 @@ export const backgroundHero = styled.main`
   width: 100%;
   height: 80vh;
   background-repeat: no-repeat;
-  background-size: 112% 80vh;
+  background-position: center;
+  background-size: cover;
   top: -1px;
   display: flex;
   justify-content: center;
   align-items: center;
+
   background-image: url("https://live.staticflickr.com/65535/52346615650_bf0acc8c0a_k.jpg");
 
   @media (max-width: 425px) {
@@ -78,11 +80,12 @@ export const heroInformation = styled.div`
 
 export const backgroundSobre = styled.section`
   width: 100%;
-  height: 20vh;
+  height: 150px;
   position: relative;
   top: -55px;
   display: flex;
   justify-content: center;
+  align-items: center;
   @media (max-width: 912px) {
     height: 100%;
   }
@@ -218,16 +221,6 @@ export const containerOfferOperation = styled.div`
   justify-content: space-between;
   height: 100%;
   width: 90%;
-`;
-
-export const pictureOfferOperation = styled.picture`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 15%;
-  height: 65%;
-  border-radius: 50%;
   img {
     max-width: 45px;
     max-height: 45px;
@@ -238,7 +231,7 @@ export const informationOfferOperation = styled.div`
   width: 80%;
   height: 80%;
   padding: 0.5rem 0 0 0;
-  h3 {
+  span {
     color: rgba(29, 6, 5, 0.69);
     font-family: var(--font-segundary);
     text-transform: uppercase;
@@ -281,23 +274,7 @@ export const backgroundWhereitIs = styled.section`
   width: 100%;
   padding-top: 5rem;
   height: 100%;
-
-  iframe {
-    padding-top: 2rem;
-    border: none;
-    width: 100%;
-    height: 100%;
-  }
-`;
-
-export const informationWhereitIs = styled.div`
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 25%;
-
   h2 {
     font-family: var(--font-segundary);
     font-weight: 400;
@@ -310,91 +287,10 @@ export const informationWhereitIs = styled.div`
     font-family: var(--font-primary);
     font-size: clamp(13px, 1.2vw, 20px);
   }
-`;
-
-export const backgroundFooter = styled.footer`
-  width: 100%;
-  height: 6rem;
-  display: flex;
-  justify-content: center;
-  @media (max-width: 912px) {
-    height: 100%;
-    padding: 2rem 0 2rem 0;
-  }
-`;
-
-export const containerFooter = styled.div`
-  width: 75%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  @media (max-width: 912px) {
-    width: 85%;
-    height: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-`;
-
-export const navLinksFooter = styled.nav`
-  width: 40%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  @media (max-width: 912px) {
+  iframe {
+    padding-top: 2rem;
+    border: none;
     width: 100%;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-  }
-`;
-
-export const linksFooter = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  @media (max-width: 912px) {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-  }
-
-  #footer__home {
-    font-family: var(--font-primary);
-    a {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-      color: var(--color-brown--h);
-      @media (max-width: 912px) {
-        width: 100%;
-      }
-    }
-  }
-  li {
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: capitalize;
-    @media (max-width: 912px) {
-      width: 100%;
-      padding: 0.5rem 0 0.5rem 0;
-    }
-    a {
-      color: var(--color-brown--ligth);
-      text-decoration: none;
-    }
-    margin-right: 1rem;
-  }
-`;
-
-export const imagesLink = styled.picture`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 20%;
-  @media (max-width: 912px) {
-    padding: 0.5rem 0 0.5rem 0;
+    height: 100%;
   }
 `;

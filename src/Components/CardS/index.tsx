@@ -4,19 +4,18 @@ const CardS = (props: {
   textPrincipal: string;
   text: string;
   image: string;
+  alt: string;
 }) => {
   return (
     <S.backgroundCard>
-      <S.containerCard>
-        <S.imageCard>
-          <img src={props.image || undefined} alt="" />
-        </S.imageCard>
+      <S.imageCard>
+        <img src={props.image || undefined} alt={props.alt || undefined} />
+      </S.imageCard>
 
-        <S.cardInformation>
-          <h3>{props.textPrincipal}</h3>
-          <p>{props.text}</p>
-        </S.cardInformation>
-      </S.containerCard>
+      <S.cardInformation>
+        <span>{props.textPrincipal}</span>
+        <p>{props.text}</p>
+      </S.cardInformation>
     </S.backgroundCard>
   );
 };
