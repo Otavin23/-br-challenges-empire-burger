@@ -6,9 +6,9 @@ import CardS from "../../Components/CardS";
 import burguer from "../../assets/icons/burger.webp";
 import headset from "../../assets/icons/headset.webp";
 import delivery from "../../assets/icons/delivery.webp";
-import imageBatata from "../../assets/ofertas/oferta-01.webp";
+import imageBatata from "../../assets/ofertas/oferta-1.webp";
 import batata from "../../assets/ofertas/oferta-2.webp";
-import sorvete from "../../assets/ofertas/oferta-03.webp";
+import sorvete from "../../assets/ofertas/oferta-3.webp";
 import timer from "../../assets/icons/timer.webp";
 import Footer from "../../Components/Footer";
 
@@ -63,7 +63,6 @@ const Hero = () => {
             Aproveite todas nossas ofertas. fiquem de olhos aberto porque sempre
             estamos mudando nosso cardapio.
           </p>
-          containerOffer
           <S.imagesOffer>
             <img
               id="primaryImage"
