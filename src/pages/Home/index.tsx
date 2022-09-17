@@ -50,7 +50,7 @@ const Hero = () => {
           <CardS
             image={`${delivery}`}
             textPrincipal={"delivery speed"}
-            text={"Entregamos menos de 45 minutos"}
+            text={"Entregamos em menos de 45 minutos"}
             alt={"man on a motorcycle"}
           />
         </S.containerSobre>
@@ -97,7 +97,7 @@ const Hero = () => {
       </S.backgroundOffer>
 
       <S.backgroundWhereitIs>
-        <h2>onde ficar a nossa castelo</h2>
+        <h2>onde fica o nosso castelo</h2>
         <p>estaremos de portas abertas a nossa realeza</p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15004.801725726546!2d-43.987622522245935!3d-19.915956916358894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1662569257104!5m2!1spt-BR!2sbr"
